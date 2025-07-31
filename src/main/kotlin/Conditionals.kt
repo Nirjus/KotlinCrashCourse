@@ -19,9 +19,19 @@ fun primeNumberCheck(number: Any){
     }
 }
 
+fun basicCondition(){
+    val trip = 10
+    if(trip > 10){
+        println("this is acceptable")
+    }else{
+        println(" this is not acceptable")
+    }
+}
 fun main(){
 
     whenExample("black")
 
     primeNumberCheck(15.6)
+
+    basicCondition()
 }
